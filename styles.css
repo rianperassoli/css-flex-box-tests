@@ -5,7 +5,7 @@ html, body, #app {
 
 #app {
   display: flex;
-  flex-wrap: wrap; /* Enable the row wrap*/
+  flex-wrap: wrap; /* Enable the row wrap. Exists to the wrap-reverse*/
   align-items: center;
   justify-content: space-between;
   align-content: space-between; /* Property like justify-content to position the content when the row wrap is enabled*/
