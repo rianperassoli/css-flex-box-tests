@@ -5,14 +5,18 @@ html, body, #app {
 
 #app {
   display: flex;
+  flex-wrap: wrap; /* Enable the row wrap*/
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between; /* Property like justify-content to position the content when the row wrap is enabled*/
 }
 
 .box {
-  width: 100px;
+  width: 60px;
   height: 60px;
   margin: 5px;
   background-color: aquamarine;
   /* flex-grow: 1; if it is 1, the box will expand to max size until full screen */
   /* flex-shrink: 0; if it is 1, the box will reduce his size to fit on screen*/
-  flex: 1; /*  the flex property receive the grow and the shrink flex: 1 0; */
+  /* flex: 1;  the flex property receive the grow and the shrink flex: 1 0; */
 }
